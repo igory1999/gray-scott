@@ -1,0 +1,980 @@
+The system is: Linux - 4.14.0-115.8.1.el7a.ppc64le - ppc64le
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/3.15.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang++ 
+Build flags: -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include;-L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib;-ltiming_chrono
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/3.15.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_25220/fast && /usr/bin/gmake -f CMakeFiles/cmTC_25220.dir/build.make CMakeFiles/cmTC_25220.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25220.dir/testCCompiler.c.o
+/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang    -o CMakeFiles/cmTC_25220.dir/testCCompiler.c.o   -c /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_25220
+/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25220.dir/link.txt --verbose=1
+/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang      CMakeFiles/cmTC_25220.dir/testCCompiler.c.o  -o cmTC_25220 
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8a625/fast && /usr/bin/gmake -f CMakeFiles/cmTC_8a625.dir/build.make CMakeFiles/cmTC_8a625.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o
+/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang   -v -o CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o   -c /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+clang version 9.0.0 (https://github.com/clang-ykt/clang 5e1ea7eba87adbe43fed5746bcbba41d7cff1bf2) (https://github.com/clang-ykt/llvm fa0da850cf08eaffb84cb1480a27efa63c63fd14)
+Target: powerpc64le-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin
+Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /autofs/nccs-svm1_sw/summit/cuda/10.1.168, version 10.1
+ "/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang-9" -cc1 -triple powerpc64le-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu ppc64le -mfloat-abi hard -target-abi elfv2 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.gcno -resource-dir /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0 -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include -I/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include -I/sw/summit/cuda/10.1.168/include -c-isystem /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include -cxx-isystem /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include -internal-isystem /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers -internal-isystem /usr/local/include -internal-isystem /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o -x c /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeCCompilerABI.c -faddrsig
+clang -cc1 version 9.0.0 based upon LLVM 9.0.0svn default target powerpc64le-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include
+ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include
+ /sw/summit/cuda/10.1.168/include
+ /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include
+ /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers
+ /usr/local/include
+ /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include
+ /usr/include
+End of search list.
+Linking C executable cmTC_8a625
+/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a625.dir/link.txt --verbose=1
+/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang     -v CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o  -o cmTC_8a625 
+clang version 9.0.0 (https://github.com/clang-ykt/clang 5e1ea7eba87adbe43fed5746bcbba41d7cff1bf2) (https://github.com/clang-ykt/llvm fa0da850cf08eaffb84cb1480a27efa63c63fd14)
+Target: powerpc64le-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin
+Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /autofs/nccs-svm1_sw/summit/cuda/10.1.168, version 10.1
+ "/sw/summit/xalt/1.1.4/bin/ld" --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_8a625 /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../.. -L/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib -L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux -L/usr/lib64 -L/sw/summit/cuda/10.1.168/lib64 -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+    add: [/sw/summit/cuda/10.1.168/include]
+    add: [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+    add: [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers]
+    add: [/usr/local/include]
+    add: [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+  collapse include dir [/sw/summit/cuda/10.1.168/include] ==> [/sw/summit/cuda/10.1.168/include]
+  collapse include dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers] ==> [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include] ==> [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include;/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include;/sw/summit/cuda/10.1.168/include;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include;/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers;/usr/local/include;/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_8a625/fast && /usr/bin/gmake -f CMakeFiles/cmTC_8a625.dir/build.make CMakeFiles/cmTC_8a625.dir/build]
+  ignore line: [gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang   -v -o CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o   -c /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 9.0.0 (https://github.com/clang-ykt/clang 5e1ea7eba87adbe43fed5746bcbba41d7cff1bf2) (https://github.com/clang-ykt/llvm fa0da850cf08eaffb84cb1480a27efa63c63fd14)]
+  ignore line: [Target: powerpc64le-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /autofs/nccs-svm1_sw/summit/cuda/10.1.168, version 10.1]
+  ignore line: [ "/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang-9" -cc1 -triple powerpc64le-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu ppc64le -mfloat-abi hard -target-abi elfv2 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.gcno -resource-dir /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0 -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include -I/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include -I/sw/summit/cuda/10.1.168/include -c-isystem /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include -cxx-isystem /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include -internal-isystem /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers -internal-isystem /usr/local/include -internal-isystem /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o -x c /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeCCompilerABI.c -faddrsig]
+  ignore line: [clang -cc1 version 9.0.0 based upon LLVM 9.0.0svn default target powerpc64le-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+  ignore line: [ /sw/summit/cuda/10.1.168/include]
+  ignore line: [ /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_8a625]
+  ignore line: [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a625.dir/link.txt --verbose=1]
+  ignore line: [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang     -v CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o  -o cmTC_8a625 ]
+  ignore line: [clang version 9.0.0 (https://github.com/clang-ykt/clang 5e1ea7eba87adbe43fed5746bcbba41d7cff1bf2) (https://github.com/clang-ykt/llvm fa0da850cf08eaffb84cb1480a27efa63c63fd14)]
+  ignore line: [Target: powerpc64le-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /autofs/nccs-svm1_sw/summit/cuda/10.1.168, version 10.1]
+  link line: [ "/sw/summit/xalt/1.1.4/bin/ld" --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_8a625 /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../.. -L/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib -L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux -L/usr/lib64 -L/sw/summit/cuda/10.1.168/lib64 -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/sw/summit/xalt/1.1.4/bin/ld] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64lppc] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8a625] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..]
+    arg [-L/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib] ==> dir [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_8a625.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib]
+    arg [-L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib] ==> dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib]
+    arg [-L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux] ==> dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/sw/summit/cuda/10.1.168/lib64] ==> dir [/sw/summit/cuda/10.1.168/lib64]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5] ==> [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib] ==> [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib]
+  collapse library dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib]
+  collapse library dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/sw/summit/cuda/10.1.168/lib64] ==> [/sw/summit/cuda/10.1.168/lib64]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib;/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib;/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib;/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux;/sw/summit/cuda/10.1.168/lib64]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5c4e6/fast && /usr/bin/gmake -f CMakeFiles/cmTC_5c4e6.dir/build.make CMakeFiles/cmTC_5c4e6.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c4e6.dir/testCXXCompiler.cxx.o
+/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang++    -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include -L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib -ltiming_chrono    -std=c++14 -o CMakeFiles/cmTC_5c4e6.dir/testCXXCompiler.cxx.o -c /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+clang-9: warning: -ltiming_chrono: 'linker' input unused [-Wunused-command-line-argument]
+clang-9: warning: argument unused during compilation: '-L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib' [-Wunused-command-line-argument]
+Linking CXX executable cmTC_5c4e6
+/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c4e6.dir/link.txt --verbose=1
+/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang++  -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include -L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib -ltiming_chrono     CMakeFiles/cmTC_5c4e6.dir/testCXXCompiler.cxx.o  -o cmTC_5c4e6 
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8fa9f/fast && /usr/bin/gmake -f CMakeFiles/cmTC_8fa9f.dir/build.make CMakeFiles/cmTC_8fa9f.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o
+/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang++    -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include -L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib -ltiming_chrono    -v -std=c++14 -o CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o -c /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+clang version 9.0.0 (https://github.com/clang-ykt/clang 5e1ea7eba87adbe43fed5746bcbba41d7cff1bf2) (https://github.com/clang-ykt/llvm fa0da850cf08eaffb84cb1480a27efa63c63fd14)
+Target: powerpc64le-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin
+Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /autofs/nccs-svm1_sw/summit/cuda/10.1.168, version 10.1
+clang-9: warning: -ltiming_chrono: 'linker' input unused [-Wunused-command-line-argument]
+clang-9: warning: argument unused during compilation: '-L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib' [-Wunused-command-line-argument]
+ "/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang-9" -cc1 -triple powerpc64le-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu ppc64le -mfloat-abi hard -target-abi elfv2 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0 -I /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include -I/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include -I/sw/summit/cuda/10.1.168/include -c-isystem /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include -cxx-isystem /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include -internal-isystem /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5 -internal-isystem /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/ppc64le-redhat-linux -internal-isystem /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward -internal-isystem /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers -internal-isystem /usr/local/include -internal-isystem /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++14 -fdeprecated-macro -fdebug-compilation-dir /autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -faddrsig
+clang -cc1 version 9.0.0 based upon LLVM 9.0.0svn default target powerpc64le-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include
+ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include
+ /sw/summit/cuda/10.1.168/include
+ /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include
+ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5
+ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/ppc64le-redhat-linux
+ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward
+ /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers
+ /usr/local/include
+ /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_8fa9f
+/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fa9f.dir/link.txt --verbose=1
+/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang++  -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include -L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib -ltiming_chrono    -v CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8fa9f 
+clang version 9.0.0 (https://github.com/clang-ykt/clang 5e1ea7eba87adbe43fed5746bcbba41d7cff1bf2) (https://github.com/clang-ykt/llvm fa0da850cf08eaffb84cb1480a27efa63c63fd14)
+Target: powerpc64le-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin
+Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /autofs/nccs-svm1_sw/summit/cuda/10.1.168, version 10.1
+ "/sw/summit/xalt/1.1.4/bin/ld" --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_8fa9f /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o -L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../.. -L/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib -L/lib -L/usr/lib -ltiming_chrono CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib -L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux -L/usr/lib64 -L/sw/summit/cuda/10.1.168/lib64 -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+    add: [/sw/summit/cuda/10.1.168/include]
+    add: [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+    add: [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5]
+    add: [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/ppc64le-redhat-linux]
+    add: [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward]
+    add: [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers]
+    add: [/usr/local/include]
+    add: [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+  collapse include dir [/sw/summit/cuda/10.1.168/include] ==> [/sw/summit/cuda/10.1.168/include]
+  collapse include dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+  collapse include dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5] ==> [/usr/include/c++/4.8.5]
+  collapse include dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/ppc64le-redhat-linux] ==> [/usr/include/c++/4.8.5/ppc64le-redhat-linux]
+  collapse include dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward] ==> [/usr/include/c++/4.8.5/backward]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers] ==> [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include] ==> [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include;/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include;/sw/summit/cuda/10.1.168/include;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include;/usr/include/c++/4.8.5;/usr/include/c++/4.8.5/ppc64le-redhat-linux;/usr/include/c++/4.8.5/backward;/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers;/usr/local/include;/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_8fa9f/fast && /usr/bin/gmake -f CMakeFiles/cmTC_8fa9f.dir/build.make CMakeFiles/cmTC_8fa9f.dir/build]
+  ignore line: [gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang++    -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include -L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib -ltiming_chrono    -v -std=c++14 -o CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o -c /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 9.0.0 (https://github.com/clang-ykt/clang 5e1ea7eba87adbe43fed5746bcbba41d7cff1bf2) (https://github.com/clang-ykt/llvm fa0da850cf08eaffb84cb1480a27efa63c63fd14)]
+  ignore line: [Target: powerpc64le-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /autofs/nccs-svm1_sw/summit/cuda/10.1.168, version 10.1]
+  ignore line: [clang-9: warning: -ltiming_chrono: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [clang-9: warning: argument unused during compilation: '-L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib' [-Wunused-command-line-argument]]
+  ignore line: [ "/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang-9" -cc1 -triple powerpc64le-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu ppc64le -mfloat-abi hard -target-abi elfv2 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0 -I /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include -I/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include -I/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include -I/sw/summit/cuda/10.1.168/include -c-isystem /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include -cxx-isystem /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include -internal-isystem /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5 -internal-isystem /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/ppc64le-redhat-linux -internal-isystem /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward -internal-isystem /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers -internal-isystem /usr/local/include -internal-isystem /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++14 -fdeprecated-macro -fdebug-compilation-dir /autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -faddrsig]
+  ignore line: [clang -cc1 version 9.0.0 based upon LLVM 9.0.0svn default target powerpc64le-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+  ignore line: [ /sw/summit/cuda/10.1.168/include]
+  ignore line: [ /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+  ignore line: [ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5]
+  ignore line: [ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/ppc64le-redhat-linux]
+  ignore line: [ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include/ppc_wrappers]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_8fa9f]
+  ignore line: [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fa9f.dir/link.txt --verbose=1]
+  ignore line: [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/clang++  -I/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//include -L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib -ltiming_chrono    -v CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8fa9f ]
+  ignore line: [clang version 9.0.0 (https://github.com/clang-ykt/clang 5e1ea7eba87adbe43fed5746bcbba41d7cff1bf2) (https://github.com/clang-ykt/llvm fa0da850cf08eaffb84cb1480a27efa63c63fd14)]
+  ignore line: [Target: powerpc64le-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /autofs/nccs-svm1_sw/summit/cuda/10.1.168, version 10.1]
+  link line: [ "/sw/summit/xalt/1.1.4/bin/ld" --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_8fa9f /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o -L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../.. -L/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib -L/lib -L/usr/lib -ltiming_chrono CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib -L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux -L/usr/lib64 -L/sw/summit/cuda/10.1.168/lib64 -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/sw/summit/xalt/1.1.4/bin/ld] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64lppc] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8fa9f] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib] ==> dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib]
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..]
+    arg [-L/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib] ==> dir [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-ltiming_chrono] ==> lib [timing_chrono]
+    arg [CMakeFiles/cmTC_8fa9f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib]
+    arg [-L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib] ==> dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib]
+    arg [-L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux] ==> dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/sw/summit/cuda/10.1.168/lib64] ==> dir [/sw/summit/cuda/10.1.168/lib64]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1//lib] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/lib]
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5] ==> [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/bin/../lib] ==> [/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib]
+  collapse library dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib]
+  collapse library dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/sw/summit/cuda/10.1.168/lib64] ==> [/sw/summit/cuda/10.1.168/lib64]
+  implicit libs: [timing_chrono;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/lib;/usr/lib/gcc/ppc64le-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib;/autofs/nccs-svm1_sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib;/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib;/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux;/sw/summit/cuda/10.1.168/lib64]
+  implicit fwks: []
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/f95 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/f95 -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/lto-wrapper
+Target: ppc64le-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/cloog-install --enable-gnu-indirect-function --enable-secureplt --with-long-double-128 --enable-targets=powerpcle-linux --disable-multilib --with-cpu-64=power8 --with-tune-64=power8 --build=ppc64le-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=power8' '-mcpu=power8'
+ /usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccDRXXlB.f90 -quiet -v -isystem /usr/include -D__unix__ -D__gnu_linux__ -D__linux__ -Dunix -D__unix -Dlinux -D__linux -Asystem=linux -Asystem=unix -Asystem=posix CMakeFortranCompilerId.F -msecure-plt -quiet -dumpbase CMakeFortranCompilerId.F -mtune=power8 -mcpu=power8 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude -o /tmp/cc0g7wWP.s
+GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (ppc64le-redhat-linux)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../ppc64le-redhat-linux/include"
+ignoring duplicate directory "/usr/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include
+ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include
+ /sw/summit/cuda/10.1.168/include
+ /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include
+ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (ppc64le-redhat-linux)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=power8' '-mcpu=power8'
+ as -v -a64 -mpower8 -many -mlittle -o /tmp/ccBYlRx4.o /tmp/cc0g7wWP.s
+GNU assembler version 2.27 (ppc64le-redhat-linux) using BFD version version 2.27-34.base.el7
+Reading specs from /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=power8' '-mcpu=power8'
+COMPILER_PATH=/usr/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/
+LIBRARY_PATH=/usr/lib64/../lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib/:/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux/:/usr/lib64/:/sw/summit/cuda/10.1.168/lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=power8' '-mcpu=power8'
+ /usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 /usr/lib64/../lib64/crt1.o /usr/lib64/../lib64/crti.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o -L/usr/lib64/../lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib -L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux -L/usr/lib64 -L/sw/summit/cuda/10.1.168/lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../.. /tmp/ccBYlRx4.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o /usr/lib64/../lib64/crtn.o
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/3.15.2/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_89ed0/fast && /usr/bin/gmake -f CMakeFiles/cmTC_89ed0.dir/build.make CMakeFiles/cmTC_89ed0.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_89ed0.dir/testFortranCompiler.f.o
+/usr/bin/f95    -c /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_89ed0.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_89ed0
+/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89ed0.dir/link.txt --verbose=1
+/usr/bin/f95      CMakeFiles/cmTC_89ed0.dir/testFortranCompiler.f.o  -o cmTC_89ed0 
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b4177/fast && /usr/bin/gmake -f CMakeFiles/cmTC_b4177.dir/build.make CMakeFiles/cmTC_b4177.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/f95   -v -c /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+Target: ppc64le-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/cloog-install --enable-gnu-indirect-function --enable-secureplt --with-long-double-128 --enable-targets=powerpcle-linux --disable-multilib --with-cpu-64=power8 --with-tune-64=power8 --build=ppc64le-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o' '-mtune=power8' '-mcpu=power8'
+ /usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/f951 /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/cc2z6xfF.f90 -quiet -v -isystem /usr/include -D__unix__ -D__gnu_linux__ -D__linux__ -Dunix -D__unix -Dlinux -D__linux -Asystem=linux -Asystem=unix -Asystem=posix /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeFortranCompilerABI.F -msecure-plt -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=power8 -mcpu=power8 -auxbase-strip CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude -o /tmp/cctfAqpU.s
+GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (ppc64le-redhat-linux)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../ppc64le-redhat-linux/include"
+ignoring duplicate directory "/usr/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include
+ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include
+ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include
+ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include
+ /sw/summit/cuda/10.1.168/include
+ /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include
+ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (ppc64le-redhat-linux)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o' '-mtune=power8' '-mcpu=power8'
+ as -v -a64 -mpower8 -many -mlittle -o CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o /tmp/cctfAqpU.s
+GNU assembler version 2.27 (ppc64le-redhat-linux) using BFD version version 2.27-34.base.el7
+COMPILER_PATH=/usr/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/
+LIBRARY_PATH=/usr/lib64/../lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib/:/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux/:/usr/lib64/:/sw/summit/cuda/10.1.168/lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o' '-mtune=power8' '-mcpu=power8'
+Linking Fortran executable cmTC_b4177
+/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4177.dir/link.txt --verbose=1
+/usr/bin/f95   -v   CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o  -o cmTC_b4177 
+Driving: /usr/bin/f95 -v CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o -o cmTC_b4177 -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/lto-wrapper
+Target: ppc64le-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/cloog-install --enable-gnu-indirect-function --enable-secureplt --with-long-double-128 --enable-targets=powerpcle-linux --disable-multilib --with-cpu-64=power8 --with-tune-64=power8 --build=ppc64le-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+Reading specs from /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4177' '-shared-libgcc' '-mtune=power8' '-mcpu=power8'
+COMPILER_PATH=/usr/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/
+LIBRARY_PATH=/usr/lib64/../lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib/:/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux/:/usr/lib64/:/sw/summit/cuda/10.1.168/lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4177' '-shared-libgcc' '-mtune=power8' '-mcpu=power8'
+ /usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_b4177 /usr/lib64/../lib64/crt1.o /usr/lib64/../lib64/crti.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o -L/usr/lib64/../lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib -L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux -L/usr/lib64 -L/sw/summit/cuda/10.1.168/lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o /usr/lib64/../lib64/crtn.o
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+    add: [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+    add: [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+    add: [/sw/summit/cuda/10.1.168/include]
+    add: [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+    add: [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude] ==> [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+  collapse include dir [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include] ==> [/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+  collapse include dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+  collapse include dir [/sw/summit/cuda/10.1.168/include] ==> [/sw/summit/cuda/10.1.168/include]
+  collapse include dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+  collapse include dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include] ==> [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include;/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include;/ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include;/sw/summit/cuda/10.1.168/include;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include;/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include;/usr/local/include;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_b4177/fast && /usr/bin/gmake -f CMakeFiles/cmTC_b4177.dir/build.make CMakeFiles/cmTC_b4177.dir/build]
+  ignore line: [gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/f95   -v -c /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/f95]
+  ignore line: [Target: ppc64le-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/cloog-install --enable-gnu-indirect-function --enable-secureplt --with-long-double-128 --enable-targets=powerpcle-linux --disable-multilib --with-cpu-64=power8 --with-tune-64=power8 --build=ppc64le-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o' '-mtune=power8' '-mcpu=power8']
+  ignore line: [ /usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/f951 /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/cc2z6xfF.f90 -quiet -v -isystem /usr/include -D__unix__ -D__gnu_linux__ -D__linux__ -Dunix -D__unix -Dlinux -D__linux -Asystem=linux -Asystem=unix -Asystem=posix /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/share/cmake-3.15/Modules/CMakeFortranCompilerABI.F -msecure-plt -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=power8 -mcpu=power8 -auxbase-strip CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude -o /tmp/cctfAqpU.s]
+  ignore line: [GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (ppc64le-redhat-linux)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../ppc64le-redhat-linux/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/finclude]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/adios2-2.5.0/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/bzip-1.0.6/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/timing_chrono-0.1/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/sz-2.1.3/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/gsl-2.6/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zfp-0.5.5/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/ftk-git072119/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/kokkos-git082819/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/zchecker-git072119/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/mgard-git072019/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/include]
+  ignore line: [ /ccs/home/iyakushin/SOFT_INSTALL/llvm/9.0.0-2/libpng-1.6.37/include]
+  ignore line: [ /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/include]
+  ignore line: [ /sw/summit/cuda/10.1.168/include]
+  ignore line: [ /sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/include]
+  ignore line: [ /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (ppc64le-redhat-linux)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o' '-mtune=power8' '-mcpu=power8']
+  ignore line: [ as -v -a64 -mpower8 -many -mlittle -o CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o /tmp/cctfAqpU.s]
+  ignore line: [GNU assembler version 2.27 (ppc64le-redhat-linux) using BFD version version 2.27-34.base.el7]
+  ignore line: [COMPILER_PATH=/usr/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/../lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib/:/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux/:/usr/lib64/:/sw/summit/cuda/10.1.168/lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o' '-mtune=power8' '-mcpu=power8']
+  ignore line: [Linking Fortran executable cmTC_b4177]
+  ignore line: [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4177.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/f95   -v   CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o  -o cmTC_b4177 ]
+  ignore line: [Driving: /usr/bin/f95 -v CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o -o cmTC_b4177 -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/f95]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: ppc64le-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-ppc64le-redhat-linux/cloog-install --enable-gnu-indirect-function --enable-secureplt --with-long-double-128 --enable-targets=powerpcle-linux --disable-multilib --with-cpu-64=power8 --with-tune-64=power8 --build=ppc64le-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
+  ignore line: [Reading specs from /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4177' '-shared-libgcc' '-mtune=power8' '-mcpu=power8']
+  ignore line: [COMPILER_PATH=/usr/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/:/usr/libexec/gcc/ppc64le-redhat-linux/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/../lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib/:/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib/:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/:/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux/:/usr/lib64/:/sw/summit/cuda/10.1.168/lib64/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4177' '-shared-libgcc' '-mtune=power8' '-mcpu=power8']
+  link line: [ /usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_b4177 /usr/lib64/../lib64/crt1.o /usr/lib64/../lib64/crti.o /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o -L/usr/lib64/../lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib -L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib -L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib -L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux -L/usr/lib64 -L/sw/summit/cuda/10.1.168/lib64 -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o /usr/lib64/../lib64/crtn.o]
+    arg [/usr/libexec/gcc/ppc64le-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-V] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64lppc] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b4177] ==> ignore
+    arg [/usr/lib64/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/../lib64] ==> dir [/usr/lib64/../lib64]
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib]
+    arg [-L/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib] ==> dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib]
+    arg [-L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib] ==> dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib]
+    arg [-L/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux] ==> dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/sw/summit/cuda/10.1.168/lib64] ==> dir [/sw/summit/cuda/10.1.168/lib64]
+    arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_b4177.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib64/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib64/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5] ==> [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib]
+  collapse library dir [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib] ==> [/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib]
+  collapse library dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib]
+  collapse library dir [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux] ==> [/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/sw/summit/cuda/10.1.168/lib64] ==> [/sw/summit/cuda/10.1.168/lib64]
+  collapse library dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;gcc_s;gcc;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib64;/usr/lib/gcc/ppc64le-redhat-linux/4.8.5;/lib64;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zeromq-4.2.5-sjkln7ytr2wrfp4hig7synbkpgwgwfiy/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/hdf5-1.10.3-ctonnmd4sausu4frstaqtrxoisc5s3ds/lib;/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/papi-5.7.0-7ycgvcx5n3zk2h4dz3koxjzl72exp2le/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/zlib-1.2.11-owldzme64jj2yideoqrrd4wk3r6jc5zt/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/netcdf-4.6.1-7ytljxhrqhgput6nwhijwr5o4jxuvc4q/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/c-blosc-1.12.1-qlmbf3gk7k7gistdhk6caf5mwgxnuryu/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/fftw-3.3.8-26wyqnw6lexs2a6filvjm5kzqlxfmaxo/lib;/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/clang-9.0.0-2/spectrum-mpi-10.3.0.1-20190611-mivx3vscf6hfpxgjmkaoyy6ag4kh3jxh/lib;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib;/sw/summit/llvm/9.0.0/9.0.0.patch001.cuda-10.1.168/lib/clang/9.0.0/lib/linux;/sw/summit/cuda/10.1.168/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_06951/fast && /usr/bin/gmake -f CMakeFiles/cmTC_06951.dir/build.make CMakeFiles/cmTC_06951.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_06951.dir/testFortranCompilerF90.f90.o
+/usr/bin/f95    -c /ccs/home/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_06951.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_06951
+/autofs/nccs-svm1_sw/summit/.swci/0-core/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/cmake-3.15.2-xit2o3iepxvqbyku77lwcugufilztu7t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06951.dir/link.txt --verbose=1
+/usr/bin/f95      CMakeFiles/cmTC_06951.dir/testFortranCompilerF90.f90.o  -o cmTC_06951 
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/iyakushin/SOFT_SRC/gray-scott/build/CMakeFiles/CMakeTmp'
+
+
+
